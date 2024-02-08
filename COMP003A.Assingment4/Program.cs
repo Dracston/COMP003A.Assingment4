@@ -18,6 +18,7 @@
                     Console.WriteLine($"{output}");
                 }
                 Console.WriteLine();
+
             }
 
         }
