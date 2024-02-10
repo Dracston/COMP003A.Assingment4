@@ -1,4 +1,12 @@
-﻿namespace COMP003A.Assingment4
+﻿/*
+ * Athour: Logan Jones
+ * Course: COMP003A
+ * Purpose: Week 4 Assingment
+ */
+
+
+
+namespace COMP003A.Assingment4
 {
     internal class Program
     {
