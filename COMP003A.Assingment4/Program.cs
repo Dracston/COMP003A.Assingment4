@@ -37,16 +37,23 @@
             {
                 if (counter2 % 2== 0)
                 {
-                    Console.WriteLine("Foo");
+                    if(counter2 % 5 == 0)
+                    {
+                        Console.WriteLine("FooBar");
+                    }
+                    else {
+                        Console.WriteLine("Foo");
+                    }
+                    
                 }
-                if (counter2 % 5 == 0)
+                else if (counter2 % 5 == 0)
                 {
                     Console.WriteLine("Bar");
                 }
-                if (counter2 % 2 == 0 && counter2 % 5 == 0)
-                {
-                    Console.WriteLine("FooBar");
-                }
+                
+                
+                   
+                
                 else { Console.WriteLine($"{counter2}"); }
                 counter2++;
 
