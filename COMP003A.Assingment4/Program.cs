@@ -13,7 +13,7 @@ namespace COMP003A.Assingment4
         static void Main(string[] args)
         {
             Console.WriteLine("".PadRight(50, '*'));
-            Console.WriteLine("for loop section \n Output a right triangle based on user input");
+            Console.WriteLine(" for loop section \n Output a right triangle based on user input");
             Console.WriteLine("".PadRight(50, '*'));
             Console.WriteLine("Enter a positive whole number: ");
 
@@ -30,13 +30,24 @@ namespace COMP003A.Assingment4
 
             }
             Console.WriteLine("".PadRight(50, '*'));
-            Console.WriteLine("foreach section \n Output all of the friends in an array");
+            Console.WriteLine(" foreach section \n Output all of the friends in an array");
             Console.WriteLine("".PadRight(50, '*'));
             string[] friends = new string[] { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
             foreach (string f in friends)
             {
                 Console.WriteLine($"\t{f}\n");
             }
+            Console.WriteLine("".PadRight(50, '*'));
+            Console.WriteLine(" do-while section \n Output 0-50 by 5s");
+            Console.WriteLine("".PadRight(50, '*'));
+            int counter = 0;
+            do
+            {
+                Console.WriteLine($"{counter}\n");
+                counter += 5;
+            }
+            while (counter <= 50);
+
             Console.WriteLine("".PadRight(50, '*'));
             Console.WriteLine("while section \n Output 1-20 \n If the number is divisible by 2, output Foo \n If the number is divisible by 5, output Bar \n If the number is divisible by 2 & 5, output FooBar");
             Console.WriteLine("".PadRight(50, '*'));
